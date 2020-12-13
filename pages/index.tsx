@@ -20,7 +20,6 @@ export default function Home() {
     <header className="flex justify-between items-center py-2 px-4">
       <div className="flex items-center space-x-2">
         <img src="/logo.png" className="w-12 h-12" />
-        <h1 className="text-blueGray-200 text-2xl font-light">ALVR</h1>
       </div>
       <Menu className="w-8 h-8 text-blue-500 hidden" />
     </header>
