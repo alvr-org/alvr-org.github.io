@@ -19,7 +19,7 @@ export default function Home() {
 
     <header className="flex justify-between items-center py-2 px-4">
       <div className="flex items-center space-x-2">
-        <img src="/logo.png" className="w-12 h-12" />
+        <img src="/logo.png" className="h-12" />
       </div>
       <Menu className="w-8 h-8 text-blue-500 hidden" />
     </header>
@@ -47,7 +47,7 @@ export default function Home() {
         <p className="opacity-90 text-lg">Play all the latest and greatest PC VR games on your Quest. If you already have VR games in your Steam library, no need to purchase them again!</p>
       </Card> */}
     </div>
-          <Banner><p>This website is not finished yet. For more info please see the <a className="font-bold underline hover:opacity-75" href="https://github.com/alvr-org/alvr#readme">readme</a> and the <a className="font-bold underline hover:opacity-75" href="https://github.com/alvr-org/ALVR/wiki">wiki</a>.</p></Banner>
+          <Banner type="info"><p>This website is not finished yet. For more info please see the <a className="font-bold underline hover:opacity-75" href="https://github.com/alvr-org/alvr#readme">readme</a> and the <a className="font-bold underline hover:opacity-75" href="https://github.com/alvr-org/ALVR/wiki">wiki</a>.</p></Banner>
     </div>
   )
 }
