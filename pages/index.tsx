@@ -98,7 +98,7 @@ export default function Home() {
                     <p className="font-semibold text-lightBlue-500">Truly Wireless PCVR</p>
                 </section>
             </main>
-            <Banner type="info">
+            <Banner className="mb-4" type="info">
                 <p>
                     This website is not finished yet. For more info please see the{" "}
                     <a
