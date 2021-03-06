@@ -48,7 +48,41 @@ export default function Home() {
       </Card>
 
     </div>
-          <Banner type="info"><p>This website is not finished yet. For more info please see the <a className="font-bold underline hover:opacity-75" href="https://github.com/alvr-org/alvr#readme">readme</a> and the <a className="font-bold underline hover:opacity-75" href="https://github.com/alvr-org/ALVR/wiki">wiki</a>.</p></Banner>
+        <section className="bg-blueGray-600 p-4 text-blueGray-200 my-4 space-y-2 shadow-lg max-w-screen-xl xl:rounded-2xl">
+          <p>
+            ALVR enables you to stream PC VR games over WiFi to your Oculus
+            Quest.
+          </p>
+          <p>
+            Technologies like Asynchronous Timewarp and Fixed Foveated Rendering
+            are used by ALVR for a smoother, more immersive experience. All
+            games that work with an Oculus Rift (s) should be compatible with
+            ALVR.
+          </p>
+          <p className="font-semibold text-lightBlue-500">
+            Truly Wireless PCVR
+          </p>
+        </section>
+      </main>
+      <Banner type="info">
+        <p>
+          This website is not finished yet. For more info please see the{" "}
+          <a
+            className="font-bold underline hover:opacity-75"
+            href="https://github.com/alvr-org/alvr#readme"
+          >
+            readme
+          </a>{" "}
+          and the{" "}
+          <a
+            className="font-bold underline hover:opacity-75"
+            href="https://github.com/alvr-org/ALVR/wiki"
+          >
+            wiki
+          </a>
+          .
+        </p>
+      </Banner>
     </div>
   )
 }
