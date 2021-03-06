@@ -88,7 +88,7 @@ export default function Home() {
                         </p>
                     </Card>
                 </div>
-                <section className="bg-blueGray-600 p-4 text-blueGray-200 my-4 space-y-2 shadow-lg max-w-screen-xl xl:rounded-2xl">
+                <section className="bg-blueGray-600 p-4 text-blueGray-200 my-8 mt-16 space-y-2 shadow-lg max-w-screen-xl xl:rounded-2xl">
                     <p>ALVR enables you to stream PC VR games over WiFi to your Oculus Quest.</p>
                     <p>
                         Technologies like Asynchronous Timewarp and Fixed Foveated Rendering are
